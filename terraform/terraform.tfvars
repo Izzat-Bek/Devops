@@ -13,9 +13,9 @@ vms = [
     cpu           = 4
     ram           = 4096
     guest_id      = "ubuntu64Guest"
-    resource_pool = "ORACLE-X6"
-    datastore_name  = "DB1"
-    network_name  = "VLAN-611"
+    resource_pool = "name"
+    datastore_name  = "name"
+    network_name  = "name"
   },
   {
     name          = "oracle-8.10"
@@ -30,8 +30,8 @@ vms = [
     cpu           = 8
     ram           = 4096
     guest_id      = "ubuntu64Guest"
-    resource_pool = "ORACLE-X6"
-    datastore_name  = "DB2"
-    network_name  = "VLAN-804"
+    resource_pool = "name"
+    datastore_name  = "name"
+    network_name  = "name"
   }
 ]
